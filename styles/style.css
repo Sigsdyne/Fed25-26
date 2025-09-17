@@ -17,6 +17,7 @@
 	/* startje */
 	--color-text:#111;
 	--color-background:#eee;
+	max-width: 375px;
 }
 
 
