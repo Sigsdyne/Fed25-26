@@ -41,11 +41,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.mms.com/nl-nl
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home page
+  https://www.mms.com/nl-nl
   <img src="readme-images/mmshome.png" width="375px" alt="home pagina van de mms website">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/mmsproduct.png" width="375px" alt="De cadeau pagina van de mms winkel">
+  Product pagina
+  https://www.mms.com/nl-nl/cadeaus/verpakking-taart-400-g/ct9364-p.html
+  <img src="readme-images/mmsproductbeschrijving.png" width="375px" alt="De cadeau pagina van de mms winkel">
  
 </details>
 
