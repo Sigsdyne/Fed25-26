@@ -29,4 +29,253 @@
 /****************/
 
 /* jouw code */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+body{
+  margin: 0;
+}
+nav{
+	order: -1;
+}
 
+img{
+  max-width: 95%;
+}
+
+h1, h2, h3, p{
+  color: #5a1f06;
+}
+
+h2{
+  font-size: 3em;
+  font-weight: bold;
+}
+
+ul{
+  list-style-type: none;
+}
+
+button{
+  margin: 2em;
+  padding: 1em 2.5em;
+  font-size: 1em;
+  font-weight: bold;
+  color: #5a1f06;
+  border: 2px  solid #5a1f06;
+  border-radius: 1.5em;
+  background-color: transparent;
+   
+}
+
+
+/* ------------------------------ */
+/* Hamburger menu button */
+/* ------------------------------ */
+nav button{
+  appearance:none;
+  font-size:1em;
+  width:3em;
+  aspect-ratio:1;
+  
+  border:none;
+  background-color:white;
+  
+  display:grid;
+  justify-content:center;
+  align-content:center;
+}
+
+nav button span{
+  display:block;
+  width:1.5em;
+  height:.2em;
+  transition: .3s;
+  background-color:#5a1f06;
+  
+  border-radius:.1em;
+  
+  grid-column-start:1;
+  grid-row-start:1;
+}
+
+nav button span:nth-of-type(1){
+  translate: 0 -.5em;
+}
+
+/* nav button span:nth-of-type(2){
+  
+} */
+
+nav button span:nth-of-type(3){
+  translate: 0 .5em;
+}
+
+nav button.is-open span:nth-of-type(1){
+  translate: 0 0;
+  rotate:45deg;
+}
+
+
+nav button.is-open span:nth-of-type(2){
+  scale: 0 1;
+}
+
+nav button.is-open span:nth-of-type(3){
+  translate: 0 0;
+  rotate:-45deg;
+}
+
+nav svg {
+	width: 5rem;
+	height: 1.625rem;
+	fill: #5a1f06;
+}
+/* ------------------------------ */
+/* Einde hamburger menu button */
+/* ------------------------------ */
+
+
+/* ------------------------------ */
+/* nav menu */
+/* ------------------------------ */
+
+nav ul{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	translate: -100%;
+	transition: 0.3s;
+}
+
+nav.is-open ul{
+	translate: 0;
+}
+
+/* ------------------------------ */
+/* einde nav menu */
+/* ------------------------------ */
+
+section{
+  width: 100vw;
+  background-color: #ffffff;
+  padding: 0%;
+}
+
+h2:first-of-type{
+  font-size: 1em;
+}
+
+section ul {
+  display: flex;
+}
+section ul li{
+  margin: 1em;
+}
+section ul img{
+ max-width: 12rem;
+}
+
+
+/* ******************* */
+/*  alles section 1 */
+/* ********************** */
+
+section:first-of-type{
+  background-color: #fff2b6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  padding: 0;
+  
+}
+section:first-of-type article{
+  position: relative;
+  width: 90%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+  box-sizing: border-box;
+  
+}
+section:first-of-type article:nth-of-type(1), section:first-of-type article:nth-of-type(3){
+  align-self: flex-start;
+  margin-left: 0;
+  border-radius: 0 0.625rem 0.625rem 0;
+}
+section:first-of-type article:nth-of-type(2){
+  align-self: flex-end;
+  margin-right: 0;
+  border-radius: 0.625rem 0 0  0.625rem;
+}
+section:first-of-type article img{
+  order: -1;
+}
+section:first-of-type article img:first-of-type{
+  position: absolute;
+  top: -3rem;
+  left: 0rem;
+  width: 5rem;
+  height: auto;
+}
+section:first-of-type article img:last-of-type{
+  width: 95%;
+  height: auto;
+}
+
+section:first-of-type article{
+  background-color: #ffabdf;
+}
+section:first-of-type article:nth-of-type(2){
+  background-color: #00a832;
+}
+section:first-of-type article:nth-of-type(3){
+  background-color: #ffd200;
+}
+
+
+/* ******************* */
+/*  alles section 2 */
+/* ********************** */
+
+section:nth-of-type(2) {
+  background-color: #ffd200;
+}
+
+section:nth-of-type(3), section:nth-of-type(6) {
+  background-color: #f3f6fa;
+}
+
+section:nth-of-type(6) article * {
+  color: white;
+}
+
+section:nth-of-type(6) article  {
+  background-color: #d70100;
+}
+section:nth-of-type(6) article:nth-of-type(2){
+  background-color: #121661;
+}
+
+section:nth-of-type(6) article:nth-of-type(3){
+  background-color: #0e74e1;
+}
+
+footer{ 
+  background-color: #f3f6fa; 
+}
+
+
+footer svg{
+  width: 80px;
+  height: 80px;
+}

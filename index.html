@@ -13,114 +13,381 @@
 </head>
 
 <body>
-	<h1>Gepersonaliseerde cadeaus, bedankjes en meer | M&M's</h1>
+	<header>
+			<h1>Gepersonaliseerde cadeaus, bedankjes en meer | M&M's</h1>
 
-	<nav>
-		<!-- hamburgermenu
-		 svg mms logo link naar home
-		 search
-		 shoppinglist -->
-	</nav>
-	<nav>
-		<!-- ontwerp je eigen mms button
-		 mix je mms peanut button-->
-	</nav>
+		<nav>
+			<button aria-label="toggle menu">
+			<!--aria = toegankelijkheid    -->
+			<span></span>
+			<span></span>
+			<span></span>
+			</button>
 
-	<h2>Verjaardag</h2>
-	<h3>Herinneringen aan een heerlijke dag</h3>
-	<button> ontwerp uw eigen M&M'S</button>
-	<button> Shop un cadeau</button>
-	<img src="" alt="">
+		
 
-	<!-- bruiloft-->
-	<article>
-		<h2>Bruiloft</h2>
-		<h3>Kleine traktaties voor de grote dag</h3>
-		<a href="#">shop nu</a>
-		<img src="" alt="">
-		<img src="" alt="">
-	</article>
+			<ul>
+				<li>
+					<button>
+						<img src="images/mmstasicoon.png" alt="producten image">
+						Producten
+						<!-- svg van een chevron right/pijl rechts -->
+						
+					</button> 
+				</li>
+				<li>
+					<button>
+						<img src="images/celebrate-icon-hover.png" alt="">
+						Momenten 
+						<!-- svg van een chevron right/pijl rechts -->
+						<svg></svg>	
+					</button> 
+				</li>
+				<li>
+					<button>
+						<img src="images/explore-icon-hover.png" alt="">
+						Ontdek 
+						<!-- svg van een chevron right/pijl rechts -->
+						<svg></svg>	
+					</button> 
+				</li>
+				<li>
+					<button>
+						<img src="images/business-icon-hover.png" alt="">
+						Bedrijfsruimte 
+						<!-- svg van een chevron right/pijl rechts -->
+						<svg></svg>	
+					</button> 
+				</li>
+			</ul>
 
-	<!-- doop -->
-	<article>
-		<h2>Doop</h2>
-		<h3>Een unieke manier om de dag nog specialer te maken</h3>
-		<a href="#">shop nu</a>
-		<img src="" alt="">
-		<img src="" alt="">
-	</article>
+			<a aria-label="M&M'S Homepage" href="#"> 
+				<!-- path om logo te maken van https://www.mms.com/nl-nl afkomstig-->
+				<svg aria-hidden="true" viewBox="0 0 121 39" xmlns="http://www.w3.org/2000/svg" class="css-1pv53v8"><path d="M115.498 4.61c.316-.026.568-.187.565-.637-.003-.555-.362-.732-.97-.73l-.879.005.009 2.434.504-.003-.005-1.023.239-.002.548 1.018h.596l-.607-1.063Zm-.33-.37-.445.003-.005-.586.352-.001c.192-.001.453.017.456.267.001.269-.134.317-.358.317Zm2.115.213c-.007-1.428-1.047-2.255-2.206-2.25-1.164.006-2.195.842-2.19 2.27.006 1.428 1.047 2.254 2.208 2.25 1.16-.006 2.193-.842 2.188-2.27Zm-2.188 1.749-.001-.005c-.869.01-1.571-.688-1.575-1.727-.005-1.04.692-1.736 1.561-1.74.846-.006 1.566.684 1.57 1.725.004 1.042-.71 1.745-1.555 1.747Zm-5.706 1.182-2.546-.008 2.098-5.043 3.295.005-2.847 5.046Zm-2.516 31.243-11.749-.001.002-26.94c0-2.033-1.593-2.899-3.563-2.899-1.972 0-3.56.82-3.56 2.899l.001 18.65c0 1.653.75 2.687 2.201 2.688l-.001 5.603-11.692-.002.002-26.94c0-2.027-1.594-2.898-3.564-2.898-2.04 0-3.561.911-3.562 2.898v18.65c0 1.653.752 2.687 2.201 2.687v5.604l-14.302-.001v-5.589h9.042l-.003-15.359-7.846.002s1.5-1.44 1.5-4.078c0-2.415-.957-4.53-2.692-5.977V1.542h11.516v1.85C73.48 1.725 76.177.997 79.365.999c3.082-.001 5.6.922 6.893 2.573C88.818 1.922 91.69.998 94.778 1c6.743 0 9.9 3.467 9.9 8.052l-.006 21.074c-.023 1.638.528 2.881 2.199 2.901l.002 5.6Zm-59.002-5.262v5.262H36.123v-26.94c0-2.033-1.593-2.898-3.564-2.898-1.97 0-3.559.82-3.559 2.898l.003 18.65c0 1.652.75 2.688 2.2 2.688v5.602H19.511v-26.94c0-2.028-1.593-2.898-3.564-2.898-2.04 0-3.56.911-3.56 2.898v18.65c0 1.652.75 2.688 2.2 2.688v5.602H.287v-5.602c1.717 0 2.605-1.035 2.604-2.688l.017-20.214c0-1.467-.904-2.548-2.622-2.548v-6.03H11.8v1.85C14.479 1.726 17.175 1 20.363 1c3.082 0 5.6.922 6.893 2.574 2.56-1.65 5.431-2.575 8.52-2.575 6.061 0 9.223 2.803 9.8 6.7v.003c.007.039.046.458.111 1.162-1.127 1.435-1.733 3.247-1.732 5.254 0 2.993 1.376 4.383 1.395 4.405a3.37 3.37 0 0 0-.222.14c-.056.043-2.924 2.212-2.923 6.259 0 2.604 1.034 4.983 2.911 6.7a9.478 9.478 0 0 0 2.756 1.743Zm11.863-19.764c.001 3.588-3.846 5.427-3.846 5.427l4.029 4.044c1.05-1.084 1.271-3.076 1.271-3.076l4.894-.001v3.556h-1.718s-.46 1.28-1.554 2.41c.047.048 1.273 1.191 1.273 1.191h2v3.567l-5.51.001-1.24-1.227s-2.401 2.39-7.164 2.392c-4.547 0-7.719-3.003-7.72-6.964 0-4.097 4.017-6.001 4.017-6.001-.923-.952-2.267-2.233-2.267-4.802 0-4.253 3.423-6.221 6.836-6.222 3.77 0 6.699 2 6.7 5.705ZM49.456 24.677c0 1.72 1.472 3.09 3.534 3.09 2.063 0 3.31-1.143 3.31-1.143l-5.076-4.962s-1.768.96-1.767 3.015Zm5.92-11.162c-.001-1.503-1.325-2.122-2.282-2.121-1.265 0-2.212.707-2.212 2.164 0 1.212 2.213 2.827 2.213 2.827s2.28-1.045 2.28-2.87Zm65.507 7.059c.004 3.032-2.288 5.606-6.406 5.612-1.718.003-3.171-.583-4.284-1.3l-.001.898-2.763.005-.005-6.044 2.597-.004c.313 1.897 2.057 2.972 4.151 3.024 1.482.037 2.243-1.11 2.242-1.804-.002-.879-.512-1.458-1.295-1.772-.984-.394-2.439-.695-3.738-1.204-2.531-.99-3.797-2.373-3.801-4.91-.004-3.082 2.495-5.225 5.897-5.214 1.395.005 2.815.394 3.739 1.042l-.005-.852 2.921-.004.008 5.185-2.748.005c-.389-1.257-1.889-2.292-3.637-2.289-1.106.002-1.688.61-1.686 1.523.002 1.264 1.277 1.627 4.433 2.53 3.199.915 4.377 3.272 4.381 5.573Z"></path></svg>
+			</a>
 
-	<!-- gepersonaliseerde grote zak  -->
-	<article>
-		<h2>Gepersonaliseerde grote zak</h2>
-		<h3>Creëer jouw eigen mix voor elke gelegenheid</h3>
-		<a href="#">shop nu</a>
-		<img src="" alt="">
-		<img src="" alt="">
-	</article>
+			<!-- search
+			shoppinglist -->
+		</nav>
+		<!-- <nav>
+			ontwerp je eigen mms button
+			mix je mms peanut button
+		</nav> -->
 
-	<!-- carousel met tekst die draait als je scrollt met de tekst : kaarsen cake leuk geschenken  -->
-	<!-- carousel met de teksten: vrienden wensen familie vieren -->
-
-	<h2>Ons doel</h2>
-	<p>M&M'S is een chocolademerk met een missie. Wij geloven dat de kracht van plezier kan bijdragen aan een wereld 
-		waarin iedereen zich thuis voelt.
-	</p>
-
-	<!-- img van alle mms in een rondje -->
-
-	<h2>Personaliseer ze</h2>
-
-	<p>je kunt M&M'S personaliseren met kleuren, leuke foto's of geliefde spreuken om van elk evenement een uniek feest
-		te maken.
-	</p>
-
-	<button>
-		<!-- mm rainbow image -->
-		ontwerp uw eigen M&M's
-	</button>
+	</header>
 	
-	<p>blijf bij het thema van je evenement</p>
-	<img src="" alt="pijl naar valentijn mms">
-	<img src="" alt="valentijn mms">
+	<main>
+
+				
+		<section>
+			<h2>Verjaardag</h2>
+		<h3>Herinneringen aan een heerlijke dag</h3>
+		<button> ontwerp uw eigen M&M'S</button>
+		<button> Shop un cadeau</button>
+		<img src="images/verjaardagframe.jpg" alt="foto van een M&M gethematiseerde fotoframe verjaardagscadeau">
+
+
+			<!-- bruiloft moet nog een pijl na shop nu-->
+			<article>
+				<h2>Bruiloft</h2>
+				<h3>Kleine traktaties voor de grote dag</h3>
+				<a href="#">shop nu</a>
+				<img src="images/bruiloftring.png" alt="afbeelding van 2 ringen met M&M hartjes">
+				<img src="images/bruilofttraktatie.jpg" alt="afbeelding van M&M bruiloft traktatiesdiie worden uitgedeeld">
+			</article>
+
+			<!-- mms crocs -->
+			<article>
+				<h2>M&M'S x Crocs</h2>
+				<h3>Schrijf je in voor alerts</h3>
+				<a href="#">shop nu</a>
+				<img src="images/Party-popper-2.png" alt="afbeelding van een party popper">
+				<img src="images/MMsCrocs.png" alt="afbeelding van MMs crocs">
+			</article>
+
+			<!-- gepersonaliseerde grote zak  -->
+			<article>
+				<h2>Gepersonaliseerde grote zak</h2>
+				<h3>Creëer jouw eigen mix voor elke gelegenheid</h3>
+				<a href="#">shop nu</a>
+				<img src="images/Party-popper-1.png" alt="afbeelding van een party popper">
+				<img src="images/MMsPersonalised.png" alt="Zak met gepersonaliseerde MMs">
+			</article>
+
+			<!-- carousel met tekst die draait als je scrollt met de tekst : kaarsen cake leuk geschenken  -->
+			<ul>
+				<li>Kaarsen</li>
+				<li>&</li>
+				<li>Cake</li>
+				<li>&</li>
+				<li>Leuk</li>
+				<li>&</li>
+				<li>Geschenken</li>
+				<li>&</li>
+			</ul>
+			<!-- carousel met de teksten: vrienden wensen familie vieren -->
+				<ul>
+				<li>Vrienden</li>
+				<li>&</li>
+				<li>Wensen</li>
+				<li>&</li>
+				<li>Familie</li>
+				<li>&</li>
+				<li>Vieren</li>
+				<li>&</li>
+			</ul>
+
+		</section>
+		
+		<!-- section 2 -->
+		<section>
+			
+			<h2>Ons doel</h2>
+			<p>M&M'S is een chocolademerk met een missie. Wij geloven dat de kracht van plezier kan bijdragen aan een wereld 
+				waarin iedereen zich thuis voelt.
+			</p>
+			<button>ontdek meer over onze missie</button>
+			<img src="images/MMsGroepCirkel.png" alt="Alle MMs characters liggend in een cirkel">
+			<!-- img van alle mms in een rondje van alle -->
+			
+		</section>
+
+		<!-- section 3 -->
+		<section>
+
+			<h2>Personaliseer ze</h2>
+			<p>je kunt M&M'S personaliseren met kleuren, leuke foto's of geliefde spreuken om van elk evenement een uniek feest
+				te maken.</p>
+			<button>
+				<!-- mm rainbow image -->
+				ontwerp uw eigen M&M's
+			</button>
+			
+			<p>blijf bij het thema van je evenement</p>
+			<img src="images/personaliseerValentijnPijl.svg" alt="pijl naar valentijn mms">
+			<img src="images/valentine's close-up.jpg" alt="valentijn mms">
+			
+			<!-- carousel start -->
+			<ul>
+				<li>
+					<h3>Bruiloftsmix</h3>
+					<p>Marie</p>
+					<!-- diverse ring mms op een roze cirkel -->
+					<img src="" alt="bruid mms">
+					<a href="">start met personaliseren </a>
+				</li>
+				<li>
+					<h3>Verjaardagsmix</h3>
+					<p>Tom</p>
+					<!-- diverse ring mms op een groene cirkel -->
+					<img src="" alt="verjaardags mms">
+					<a href="">start met personaliseren </a>
+				</li>
+				<li>
+					<h3>Babymix</h3>
+					<p>Anna</p>
+					<!-- diverse ring mms op een blauwe cirkel -->
+					<img src="" alt="Baby mms">
+					<a href="">start met personaliseren </a>
+				</li>
+			</ul>	
+		</section>
+
+		
+		<!-- section 4 -->
+		<section>		
+			<!-- img viewer tussen bruiloft en verjaardag start-->
+
+			<h2>Maak van je grote dag een onvergetelijk moment</h2>
+			<p>laat ons je mooiste creaties afdrukken</p>
+			<a href="">bekijk alle gelegenheden</a>
+			<img src="images/EU-Wedding-2022-Cohley-08.jpg" alt="Bruilofts foto met MMS champagneflesjes">
+
+			<ul>
+				<li>
+					<a href="">
+					<!-- img champagne mms flessen -->
+					<img src="images/ct1315_img_02_9179.png" alt="mms in champagne flesjes">
+					<p>bruiloft</p>
+					</a>
+				</li>
+
+				<li>
+					<a href="">
+					<!-- img verjaardagskaar met foto en cadeau -->
+					<img src="images/fotoFrame.png" alt="verjaardagskaar met foto en cadeau">
+					<p>verjaardag</p>
+					</a>
+				</li>
+
+				<li>
+					<a href="">
+					<!-- img verjaardagskaar met foto en cadeau -->
+					<img src="images/geboortefles.png" alt="geboorteflesje">
+					<p>geboorte & doop</p>
+					</a>	
+				</li>
+					
+				<li>
+					<a href="">
+					<!-- img verjaardagskaar met foto en cadeau -->
+					<img src="images/MMsCommunieFlask.png" alt="flesjes met MMs voor een communie">
+					<p>Communie</p>
+					</a>
+				</li>
+
+				<li>
+					<a href="">
+					<!-- img verjaardagskaar met foto en cadeau -->
+					<img src="images/MMsLovebox.png" alt="flesjes met MMs voor een communie">
+					<p>Communie</p>
+					</a>		
+				</li>		
+			</ul>
+		
+		</section>
+
+		<!-- section 5 -->
+
+		<section>
+			<h2>Voorgestelde Producten</h2>
+			<p>Zoek je een orgineel, persoonliijk cadeau? dit is een greep uit jouw favoriete producten</p>
+			<!-- M met rainbow cirkel rechtsbovenin bij de artikels -->
+			<ul>
+				<li>
+					<article>
+						<h3>Personalilseerbare Elegante verpakking 300g</h3>
+						<p>€42,00</p>
+						<img src="images/MMSElegant.png" alt="">
+						<p>Nieuw</p>
+					</article>
+				</li>
+					<li>
+					<article>
+						<h3>Buisje 43g</h3>
+						<p>€3,50 /stuk</p>
+						<img src="images/MMsBuisje.png" alt="">
+					</article>
+				</li>
+					<li>
+					<article>
+						<h3>Verpakking "Strik" 400g</h3>
+						<p>€33,15</p>
+						<!-- 39 doorstreept -->
+						<p>€39,00</p>
+						<img src="images/MMsStrik.png" alt="">
+						<p>Uitverkoop</p>
+					</article>
+				</li>
+					<li>
+					<article>
+						<h3>Hartvormige Doos 500g</h3>
+						<p>€48,00 /stuk</p>
+						<img src="images/MMsOpenHart.png" alt="">
+					</article>
+				</li>
+			</ul>
+		</section>
+		
+		<!-- section 6 -->
+
+		<section>
+			<h2>Geef uw merk de zoete aandacht die het verdient</h2>
+			<p>zo vindt u precies wat uw bedrijf nodig heeft</p>
+
+			<article>
+				<h3>vraag een offerte aan</h3>
+				<p>laat ons u helpen om uw volgende bedrijfsevent een persoonlliijke touch te geven - vraag een offerte op maat aan</p>
+				<button>een offerte aanvragen</button>
+				<img src="images/OfferteMMs.png" alt="">
+			</article>
+
+			<article>
+				<h3>Verrukkelijke promotiekansen voor uw werk</h3>
+				<p>breng je bedrijf onder de aandacht of toon je waardering met gepersonaliseerde cadeaus</p>
+				<button>onze producten</button>
+				<img src="images/MMsPromotie.png" alt="">
+			</article>
+
+				<article>
+				<h3>Download onze zakelijke brochure</h3>
+				<p>bekijk al onze relatiegeschenken en ontvang gratis een offerte</p>
+				<button>download brochure</button>
+				<img src="images/Brochure.png" alt="">
+			</article>
+
+
+		</section>
+
+		<!-- nog een bruiloft carousel -->
+		 <!----------  -->
+		<!-- ------- -->
+
+		<h2>Zij vertrouwen op ons</h2>
+		<!-- truspilot score -->
+		<img src="images/TrustPilotImage.jpg" alt="">
+	</main>
+
+	<footer>
+		<img src="images/MMsfooter.png" alt="">
+
+		<h3>vind een vestiging</h3>
+		<p>Bezoek onze <a href="#">M&M'S winkels</a> over de hele wereld</p>
+		<!-- svg element van https://www.mms.com/nl-nl  -->
+		<svg fill="white" viewBox="0 0 132 132" xmlns="http://www.w3.org/2000/svg" class="css-19o308k"><title>vind een vestiging</title><circle cx="66" cy="66" r="66"></circle><path d="M25.3795 96.0674L38.3209 81.4005C38.5045 81.1925 38.7685 81.0733 39.0459 81.0733H94.7695C95.0707 81.0733 95.3547 81.2136 95.5376 81.4529L106.753 96.1198C107.24 96.756 106.786 97.674 105.985 97.674H26.1046C25.2719 97.674 24.8286 96.6917 25.3795 96.0674Z" fill="#5A1F06"></path><path clip-rule="evenodd" d="M55.9418 74.8757C47.4815 71.3397 41.5366 62.9854 41.5366 53.2427C41.5366 40.2991 52.0294 29.8064 64.9729 29.8064C77.9164 29.8064 88.4092 40.2991 88.4092 53.2427C88.4092 62.9776 82.4738 71.3262 74.0244 74.8671C69.9636 77.3467 66.7915 81.0577 64.9761 85.4679C63.1627 81.0627 59.9959 77.3552 55.9418 74.8757Z" fill="#D70100" fill-rule="evenodd"></path><g clip-path="url(#serviceIconStoreClipPath)"><path d="M72.9128 58.2415L72.9439 49.9562C72.9324 49.7153 72.9256 49.6352 72.9009 49.5031V49.5017C72.6737 47.9862 71.4389 46.8959 69.0708 46.8959C67.8646 46.8959 66.7424 47.2547 65.743 47.8967C65.2383 47.2547 64.2541 46.8959 63.0494 46.8959C61.8045 46.8959 60.7513 47.1791 59.7064 47.8276V47.1087H55.209L55.2108 49.4542C55.8816 49.4542 56.2344 49.8741 56.2355 50.4457L56.2342 58.3104C56.2342 58.9536 55.8877 59.3567 55.2169 59.3558L55.218 61.5351L60.805 61.5341L60.8041 59.3556C60.2379 59.3556 59.9435 58.9526 59.9444 58.3095L59.9404 51.0539C59.9404 50.2797 60.5333 49.9262 61.3308 49.927C62.1008 49.927 62.7242 50.2659 62.7242 51.0539L62.7302 61.5362H67.2973L67.2957 59.3556C66.7295 59.3556 66.4353 58.9525 66.436 58.3095L66.4309 51.0537C66.4309 50.2457 67.0509 49.9258 67.8198 49.9264C68.5888 49.927 69.2117 50.2627 69.2132 51.0535C69.2132 51.2954 69.2149 53.5295 69.2161 55.8732C69.2088 58.6245 69.2013 61.5336 69.2013 61.5336H69.2196V61.5356H70.2647L73.7561 61.5426L73.7635 59.3677C73.1146 59.3592 72.9031 58.8762 72.9128 58.2415Z" fill="white"></path></g><defs><clipPath id="serviceIconStoreClipPath"><rect fill="white" height="14.6477" transform="translate(55.209 46.8958)" width="18.5537"></rect></clipPath></defs></svg>
+
+		<h3>neem contact met ons op</h3>
+		<a href="#">+318000249670</a>
+		<p>Maandag - Vrijdag: 09h00 - 17h00 uur</p>
+		<!-- svg element van https://www.mms.com/nl-nl  -->
+		<svg fill="white" viewBox="0 0 132 132" xmlns="http://www.w3.org/2000/svg" class="css-19o308k"><title>neem contact met ons op</title><circle cx="66" cy="66" r="66"></circle><path d="M49.2493 49.3021C49.2493 45.488 55.2101 39.2901 67.1317 39.2901C79.2916 39.2901 84.0603 45.9647 84.0603 49.3021C84.0603 52.6394 82.8681 56.4535 92.8822 56.4535C102.896 56.4535 100.989 50.494 100.989 48.1102C100.989 45.7264 96.6971 30.9468 67.1317 30.9468C37.5662 30.9468 32.3207 45.0112 32.3207 48.1102C32.3207 51.2091 29.9364 56.4535 40.4274 56.4535C50.9184 56.4535 49.2493 53.1161 49.2493 49.3021Z" fill="#FA6400"></path><path d="M47.5803 59.0756C49.1063 56.5965 52.19 56.2945 53.5411 56.4535V50.7323C53.5411 48.5869 56.1638 48.1102 58.5481 48.1102C60.9325 48.1102 62.363 50.0172 62.363 52.1626V56.9302H70.7081C70.4697 54.8643 70.279 50.4463 71.4234 49.3021C72.854 47.8718 77.6226 48.1102 78.8148 49.3021C79.7685 50.2556 79.689 54.7848 79.5301 56.9302C80.4043 56.7713 82.3913 56.5488 83.345 56.9302C84.5371 57.407 86.683 60.5059 89.3058 64.5584C91.9285 68.6108 95.9818 76.4774 96.4587 79.0995C96.9355 81.7217 96.9355 89.1115 96.9355 91.4953C96.9355 93.8791 94.3128 95.3094 92.1669 95.3094C90.021 95.3094 43.527 95.071 40.4274 95.3094C37.3278 95.5477 36.6125 93.4023 36.6125 92.2104V81.245C36.6125 78.6228 45.6729 62.1746 47.5803 59.0756Z" fill="#FA6400"></path><ellipse cx="67.0737" cy="75.7329" fill="#0E74E1" rx="14.4624" ry="13.9958"></ellipse><g clip-path="url(#serviceIconCallClipPath)"><path d="M72.5858 78.2969L72.6062 73.0192C72.5986 72.8657 72.5942 72.8147 72.578 72.7305V72.7297C72.4295 71.7643 71.6222 71.0697 70.074 71.0697C69.2855 71.0697 68.5518 71.2983 67.8985 71.7072C67.5685 71.2983 66.9251 71.0697 66.1375 71.0697C65.3236 71.0697 64.6351 71.2502 63.952 71.6632V71.2053H61.0117L61.0129 72.6993C61.4515 72.6993 61.6821 72.9669 61.6828 73.331L61.682 78.3408C61.682 78.7505 61.4554 79.0073 61.0169 79.0067L61.0176 80.3949L64.6702 80.3943L64.6696 79.0066C64.2994 79.0066 64.107 78.7499 64.1076 78.3402L64.1049 73.7184C64.1049 73.2252 64.4925 73.0001 65.0139 73.0005C65.5173 73.0005 65.9249 73.2164 65.9249 73.7184L65.9288 80.3956H68.9146L68.9135 79.0066C68.5434 79.0066 68.351 78.7498 68.3515 78.3402L68.3482 73.7183C68.3482 73.2036 68.7535 72.9998 69.2562 73.0002C69.7589 73.0005 70.1662 73.2144 70.1671 73.7181C70.1671 73.8722 70.1682 75.2953 70.1691 76.7883C70.1643 78.5408 70.1594 80.3939 70.1594 80.3939H70.1713V80.3952H70.8545L73.1371 80.3997L73.1419 79.0143C72.7177 79.0088 72.5794 78.7012 72.5858 78.2969Z" fill="white"></path></g><defs><clipPath id="serviceIconCallClipPath"><rect fill="white" height="9.33057" transform="translate(61.0117 71.0697)" width="12.1297"></rect></clipPath></defs></svg>
 	
-	<!-- carousel start -->
+		<h4>Word lid van de community voor alle acties en aanbiedingen</h4>
 
-	<h3>Bruiloftsmix</h3>
-	<p>Marie</p>
-	<img src="" alt="bruid mms">
-	<a href="">start met personaliseren </a>
+		<input type="email" placeholder="e-mailadres (vereist)*" required>
+		<p>Door op de ""ik meld me aan"" knop te klikken, bevestig je dat je ouder bent dan 18 jaar en dat je marketingcommunicatie wilt ontvangen van M&M'S en andere <a href="#">merken van Mars ↗</a> (exclusief Petcare). 
+		<a href="#">Financiële Incentive ↗</a> en <a href="#"> Privacyverklaring ↗</a></p>
+		<button>ik meld me aan</button>
 
-	<h3>Verjaardagsmix</h3>
-	<p>Tom</p>
-	<img src="" alt="verjaardags mms">
-	<a href="">start met personaliseren </a>
+		<!-- uitklapmenu -->
+		<button><h2>klantenservice</h2></button>
+		<ul>
+			<li>verzending</li>
+			<li>algemene verkoopvoorwaarden</li>
+			<li>veelgestelde vragen</li>
+			<li>status van je bestelling</li>
+			<li>neem contact met ons op</li>
+		</ul>
 
-	<h3>Babymix</h3>
-	<p>Anna</p>
-	<img src="" alt="Baby mms">
-	<a href="">start met personaliseren </a>
+		<button><h2>over ons</h2></button>
+		<ul>
+			<li>onze winkels</li>
+			<li>carrieres ↗</li>
+		</ul>
 
-	<!-- carousel eind -->
+		<h2>volg ons</h2>
+		<!-- insta facebook twitter youtube en pinterest icon -->
+
+		<!-- streep -->
+
+		<!-- svg element van https://www.mms.com/nl-nl  -->
+		<svg aria-hidden="true" version="1.1" viewBox="30 30 135 70" xmlns="http://www.w3.org/2000/svg" class="css-b8quj5"><path d="M80.7654,59.8215c-0.5781,0-0.8375,0.3449-1.0533,0.8433C66.19,91.9472,65.0526,94.4233,65.0526,94.4233h7.663  l1.5972-3.926h11.5474l1.601,3.926h9.0161c0,0-0.7725-1.6071-14.659-33.7585C81.6032,60.167,81.3422,59.8215,80.7654,59.8215z  M76.7483,84.5108l3.3314-8.1888l3.3393,8.1888H76.7483z M60.5686,60.5366c0.4196-0.42,0.8462-0.7153,1.5101-0.7153v34.602h-7.1969  V77.879l-8.3228,8.3183l-8.3229-8.3186v16.5446h-7.1967v-34.602c0.664,0,1.0908,0.2953,1.5101,0.7153L46.559,74.5485  L60.5686,60.5366z M119.2031,78.6168c2.6484-1.5864,4.6579-4.3599,4.6579-8.3276c0-3.1229-1.2468-5.6897-3.4073-7.4316  c-2.1905-1.766-4.7289-2.7177-9.9138-2.7177H99.4513v34.2834h8.1941V81.6611c0.0633,0,1.8213,0,2.5382,0  c2.7675,0,4.159,1.0484,5.318,3.8335c0.9798,2.3546,1.6722,5.1496,2.5724,8.9288h9.1388c-1.2968-3.8905-1.9463-5.7248-2.9218-8.4691  C122.9601,82.2101,121.3409,79.9027,119.2031,78.6168z M113.9618,74.4062c-0.9868,0.7641-2.2676,1.0026-4.5714,1.0026  c-0.6101,0-1.7449,0-1.7449,0s-0.0168-9.1373,0-9.1373c0.0306,0,0.9766,0,1.7449,0c2.4053,0,3.601,0.2652,4.568,0.9997  c1.1068,0.8401,1.6005,2.1023,1.6005,3.563C115.5589,72.4231,115.0067,73.5971,113.9618,74.4062z M154.6407,88.5938  c-1.9557,4.5243-6.7482,6.6505-12.2086,6.6505c-5.6145,0-10.2609-1.8217-13.3831-5.6024l4.7197-4.943  c2.1335,2.6743,5.0392,4.1943,8.2963,4.1158c2.3498-0.0565,3.7796-0.9544,4.3528-2.2739c0.6552-1.5093,0.0408-2.9054-1.063-3.7722  c-3.0919-2.4276-10.2339-2.5718-13.6157-7.3003c-1.7512-2.449-2.2372-5.8487-0.814-9.1117  c1.8319-4.1996,5.9414-6.8329,11.3891-6.8329c4.6698,0,9.1096,1.7782,11.8855,4.7301l-4.7129,4.9351  c-1.7599-2.0885-4.2922-3.3741-7.1211-3.3741c-2.0526,0-3.4478,0.9181-3.8667,2.319c-0.3396,1.1355,0.0295,2.3185,1.0659,3.1257  c2.6382,2.0552,9.3152,2.6589,12.9957,6.1524C155.7389,80.4286,156.3518,84.6355,154.6407,88.5938z M39.3225,34.8165  c0,2.3933-1.7388,3.7579-4.2258,3.7579h-2.3933v5.5536h-1.6641V31.0394h4.0574C37.5837,31.0394,39.3225,32.4232,39.3225,34.8165z  M32.7035,37.0418h2.3933c1.4958,0,2.5427-0.8228,2.5427-2.2253c0-1.4397-1.0469-2.2432-2.5427-2.2432h-2.3933V37.0418z  M46.0538,36.5365c0,0-0.168-0.0372-0.4486-0.0372c-1.6827,0-2.711,1.3467-2.711,3.3097v4.3191h-1.5894v-9.087h1.5705v1.6083  c0.4114-1.0472,1.5894-1.7578,2.7861-1.7578c0.2244,0,0.3925,0.0372,0.3925,0.0372V36.5365z M56.5065,39.5845  c0,2.6363-2.0194,4.7494-4.7494,4.7494c-2.7296,0-4.7491-2.113-4.7491-4.7494s2.0194-4.7494,4.7491-4.7494  C54.4871,34.8351,56.5065,36.9482,56.5065,39.5845z M48.6347,39.5845c0,1.8136,1.3464,3.2725,3.1224,3.2725  c1.7764,0,3.1227-1.4589,3.1227-3.2725s-1.3464-3.2719-3.1227-3.2719C49.9811,36.3127,48.6347,37.7709,48.6347,39.5845z  M65.1642,35.041h1.6077v9.087h-1.6077v-1.3089c-0.5611,0.8972-1.5147,1.5147-2.8797,1.5147c-2.2997,0-3.6271-1.5519-3.6271-3.9638  V35.041h1.608v5.1418c0,1.6263,0.8225,2.6549,2.3558,2.6549s2.543-1.1966,2.543-3.0474V35.041z M78.4773,31.0394V44.128h-1.5894  v-1.4397c-0.6544,0.9908-1.8883,1.6455-3.2161,1.6455c-2.5802,0-4.5621-2.0566-4.5621-4.7494c0-2.6735,1.9819-4.7494,4.5621-4.7494  c1.3278,0,2.543,0.5797,3.2161,1.5705v-5.3663H78.4773z M73.8588,36.3127c-1.776,0-3.1224,1.4397-3.1224,3.2719  s1.3464,3.2725,3.1224,3.2725c1.7764,0,3.1227-1.4403,3.1227-3.2725S75.6351,36.3127,73.8588,36.3127z M83.0776,31.0394V44.128  h-1.608V31.0394H83.0776z M89.4536,45.5119c-0.8228,1.963-1.6269,2.7293-2.9916,2.7293c-0.3928,0-0.7295-0.0744-0.9911-0.1866  v-1.4211c0.2055,0.075,0.5236,0.1494,0.86,0.1494c0.7295,0,1.1595-0.4297,1.6455-1.5891l0.5422-1.3089l-3.6085-8.844H86.63  l2.73,7.0118l2.8047-7.0118h1.6641L89.4536,45.5119z M100.2426,48.0168V35.041h1.5894v1.4397  c0.6544-0.9908,1.8883-1.6455,3.2157-1.6455c2.5802,0,4.5624,2.0566,4.5624,4.7494c0,2.6735-1.9822,4.7494-4.5624,4.7494  c-1.3275,0-2.5427-0.5797-3.2157-1.5705v5.2534H100.2426z M104.8608,36.3127c-1.776,0-3.1224,1.4397-3.1224,3.2719  s1.3464,3.2725,3.1224,3.2725c1.7764,0,3.1224-1.4403,3.1224-3.2725S106.6372,36.3127,104.8608,36.3127z M117.1271,38.1262  c0-1.1409-0.8039-1.8322-2.1499-1.8322c-1.2342,0-2.1502,0.5047-3.0852,1.3647V35.976c0.8228-0.6734,1.8136-1.1409,3.1224-1.1409  c2.3372,0,3.6836,1.2903,3.6836,3.4033v5.8896h-1.5147v-1.1966c-0.7102,0.9164-1.8136,1.4025-3.0102,1.4025  c-1.608,0-2.7486-1.1037-2.7486-2.5991c0-1.6263,1.0283-2.5991,3.0291-2.9358l2.6735-0.4483V38.1262z M114.4721,42.9128  c1.5519,0,2.6738-1.01,2.6738-2.4119v-0.767l-2.4308,0.4303c-1.0844,0.2059-1.6827,0.6919-1.6827,1.4769  C113.0324,42.4081,113.6308,42.9128,114.4721,42.9128z M126.2888,36.5365c0,0-0.168-0.0372-0.4483-0.0372  c-1.6827,0-2.7107,1.3467-2.7107,3.3097v4.3191h-1.5898v-9.087h1.5705v1.6083c0.4117-1.0472,1.5891-1.7578,2.7858-1.7578  c0.2245,0,0.3925,0.0372,0.3925,0.0372V36.5365z M130.4777,32.9093h0.0564v2.1316h2.5421v1.4397h-2.5421v4.8052  c0,1.0658,0.4669,1.5519,1.5141,1.5519c0.3553,0,0.7484-0.0936,1.028-0.2802v1.4961c-0.3174,0.168-0.7849,0.2802-1.4019,0.2802  c-1.7199,0-2.7486-1.0658-2.7486-2.8236v-5.0296h-1.5705v-0.2059L130.4777,32.9093z M148.6338,39.5845  c0,2.6363-2.0201,4.7494-4.7494,4.7494c-2.73,0-4.7494-2.113-4.7494-4.7494s2.0194-4.7494,4.7494-4.7494  C146.6138,34.8351,148.6338,36.9482,148.6338,39.5845z M140.7614,39.5845c0,1.8136,1.3467,3.2725,3.1231,3.2725  s3.1224-1.4589,3.1224-3.2725s-1.3461-3.2719-3.1224-3.2719S140.7614,37.7709,140.7614,39.5845z M151.1022,44.128v-7.6474h-1.4025  V35.041h1.4025v-0.7849c0-2.3189,1.3275-3.4405,3.1224-3.4405c0.6541,0,1.0844,0.1122,1.3647,0.2238v1.4403  c-0.2802-0.1122-0.6355-0.1873-1.103-0.1873c-1.0094,0-1.7764,0.5047-1.7764,1.9258v0.8228h2.5434v1.4397h-2.5434v7.6474H151.1022z"></path></svg>
+		<!-- cevron right naast de mars  -->
+		<ul>
+			<li><a href="#">Cookie instellingen</a></li>
+			<li><a href="#">Privacybeleid ↗</a></li>
+			<li><a href="#">Juridisch ↗</a></li>
+			<li><a href="#">Cookies ↗</a></li>
+			<li><a href="#">Toegankelijkheid ↗</a></li>
+			<li><a href="#">Bericht voor ouders ↗</a></li>
+			<li><a href="#">Internationale mensenrechten verklaring ↗</a></li>
+		</ul>
 	
-	<!-- img viewer tussen bruiloft en verjaardag start-->
-
-	<h2>Maak van je grote dag een onvergetelijk moment</h2>
-	<p>laat ons je mooiste creaties afdrukken</p>
-	<a href="">bekijk alle gelegenheden</a>
-
-	<a href="">
-		<!-- img champagne mms flessen -->
-		 <img src="" alt="mms in champagne flesjes">
-		 <p>bruiloft</p>
-	</a>
+		<p>© 2025 MMS.COM. Mars opgericht en zijn filialen. Alle rechten voorbehouden</p>
 	
-	<a href="">
-		<!-- img verjaardagskaar met foto en cadeau -->
-		 <img src="" alt="verjaardagskaar met foto en cadeau">
-		 <p>verjaardag</p>
-	</a>
-		<!-- img viewer tussen bruiloft en verjaardag eind-->
+	
+	</footer>
+
 	<script defer src="scripts/script.js"></script>
 </body>
 	
